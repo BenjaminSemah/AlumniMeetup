@@ -6,6 +6,8 @@
 body {
   background-color: #d3d3d3;
   font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -78,6 +80,73 @@ header {
   margin-left: 15px;
   padding-bottom: 50px;
   font-weight: 600;
+}
+
+.activities {
+  background-color: #272a31;
+  padding-bottom: 50px;
+}
+
+.activities-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+
+#activities-title {
+  color: white;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+#activities-underline {
+  border-top: 2px solid #ec5242;
+  width: 50px;
+}
+
+.activities-lineup {
+  padding-left: 0;
+}
+
+.activity-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #4b4949;
+  margin: 10px;
+  padding: 10px;
+}
+
+.activity-list img {
+  height: 50px;
+}
+
+.activity-title {
+  color: #ec5242;
+}
+
+.activity-brief {
+  color: white;
+}
+
+.register-button {
+  background-color: #ec5242;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 15px 20px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 
