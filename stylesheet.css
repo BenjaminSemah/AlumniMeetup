@@ -81,13 +81,15 @@ header {
   font-weight: 600;
 }
 
-.activities {
+.activities,
+.sponsors {
   background-color: #272a31;
   padding-bottom: 50px;
 }
 
 .activities-heading,
-.speakers-heading {
+.speakers-heading,
+.sponsors-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,7 +97,8 @@ header {
   margin-bottom: 30px;
 }
 
-#activities-title {
+#activities-title,
+.sponsors-title {
   color: white;
   font-size: 1.3em;
   margin-bottom: 10px;
@@ -103,7 +106,8 @@ header {
 }
 
 #activities-underline,
-#speakers-underline {
+#speakers-underline,
+#sponsors-underline {
   border-top: 2px solid #ec5242;
   width: 50px;
 }
@@ -234,5 +238,16 @@ header {
 #less-speakers-arrow {
   height: 15px;
   color: white;
+}
+
+.sponsors-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.sponsors-logos img {
+  height: 30px;
 }
 
