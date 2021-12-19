@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lato:wght@300;400;700&family=Poppins:wght@300;700&family=Readex+Pro:wght@200;500&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+/* font-family: 'COCOGOOSE', sans-serif; */
+/* font-family: 'Lato', sans-serif;*/
+
+body {
+  background-color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-image: url(./images/headerImage.jpg);
+  background-size: cover;
+  background-color: #d3d3d3;
+  background-blend-mode: screen;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #d3d3d3;
+  /* border-collapse: separate; */
+}
+
+.hero {
+  padding: 20px 0;
+
+}
+
+.hamburger-menu {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 15px;
+  margin-top: 3em;
+}
+
+.hero-main-title {
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 600;
+  margin-top: 8px;
+  line-height: 1.2em;
+}
+
+.hero-sub-title {
+  color: #ec5242;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.hero-paragraph p {
+  line-height: 1.5em;
+  text-align: left;
+  padding: 0 15px;
+  color: #272a31;
+}
+
+.hero-paragraph {
+  background: #e3e3e3;
+  border: 1px solid white;
+  margin: 0 15px;
+}
+
+.hero-date {
+  margin-top: 2em;
+  margin-left: 15px;
+  margin-bottom: 0;
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #4f5052;
+  font-size: 1.5em;
+}
+
+.hero-venue {
+  color: #272a31;
+  margin-top: 0;
+  margin-left: 15px;
+  padding-bottom: 50px;
+  font-weight: 600;
+}
+
+
