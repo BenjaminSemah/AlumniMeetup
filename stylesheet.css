@@ -157,7 +157,7 @@ header {
 
 .speakers {
   background-color: white;
-  padding-bottom: 75px;
+  padding-bottom: 50px;
 }
 
 .speakers-title {
@@ -251,3 +251,26 @@ header {
   height: 30px;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.footer-logo {
+  height: 40px;
+}
+
+footer p {
+  margin: 1px 0;
+  color: #272a31;
+  font-size: 0.8em;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
