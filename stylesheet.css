@@ -392,4 +392,98 @@ footer p {
   margin: 30px 10px;
 }
 
+.upperNav {
+  display: none;
+}
+
+.desktop-navbar {
+  display: none;
+}
+
+/* /////////////// DESKTOP VERSION /////////////// */
+
+@media only screen and (min-width: 768px) {
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .upperNav {
+    margin: 0;
+    padding: 5px 100px;
+    background-color: #48494b;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+  }
+
+  .upper-nav-list img {
+    height: 15px;
+  }
+
+  .upper-nav-list {
+    color: #d3d3d3;
+    font-size: 0.8em;
+  }
+
+  .desktop-nav-wrapper {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .desktop-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .desktop-navbar img {
+    height: 40px;
+  }
+
+  .desktop-navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .desktop-nav-items {
+    font-weight: 600;
+    color: #272a31;
+  }
+
+  .desktop-nav-link {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .desktop-nav-link:hover {
+    color: #ec5242;
+  }
+
+  #nav-signup {
+    background-color: white;
+    border: 2px solid #ec5242;
+    font-weight: 550;
+    padding: 7px 11px;
+    color: #ec5242;
+  }
+
+  #nav-signup:hover {
+    background-color: #ec5242;
+    color: white;
+  }
+
+  footer {
+    padding: 25px 200px;
+  }
+
+
+}
 
