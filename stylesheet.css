@@ -278,6 +278,10 @@ footer p {
 
 /* /////////////// ABOUT PAGE /////////////// */
 
+.about-header {
+  padding: 10px 5px;
+}
+
 .about-hero-paragraph {
   text-align: center;
   padding: 20px 10px;
@@ -285,8 +289,9 @@ footer p {
 }
 
 #get-in-touch {
+  margin-top: 40px;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -294,5 +299,97 @@ footer p {
   text-align: center;
   font-size: 1.1em;
   font-weight: 900;
+} 
 
+.more-info {
+  background-color: white;
+  padding: 50px 5px;
 }
+
+.more-info #ghmmLogo-about {
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+.more-info p {
+  text-align: justify;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+#ghmm-photo {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.previous-edition {
+  padding: 30px 0;
+  background-color: #f3ebeb;
+}
+
+.previous-edition-title {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#previous-editions-underline { 
+  border-top: 2px solid #ec5242;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.previous-editions-photo {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.first-edition-brief,
+.second-edition-brief {
+  color: white;
+  margin: 20px auto;
+  background-size: cover;
+  background-color: #ec5242;
+  background-blend-mode: multiply;
+  width: 90%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.takoradiImage {
+  background-image: url(./images/firstEdition.jpg);
+}
+
+.kumasiImage {
+  background-image: url(./images/secondEdition.jpg);
+}
+
+.first-edition-brief h4,
+.second-edition-brief h4 {
+  font-family: 'COCOGOOSE', sans-serif;
+  text-shadow: 2px 2px #272a31;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.first-edition-brief p,
+.second-edition-brief p {
+  text-align: center;
+  text-shadow: 1px 1px #272a31;
+  margin: 0 auto;
+  font-size: 0.8em;
+  width: 80%;
+}
+
+#previous-editions-underline + p {
+  font-size: 1em;
+  text-align: center;
+  margin: 30px 10px;
+}
+
+
