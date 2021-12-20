@@ -74,7 +74,7 @@ header {
 }
 
 .hero-venue {
-  color: #272a31;
+  color: #505257;
   margin-top: 0;
   margin-left: 15px;
   padding-bottom: 50px;
@@ -392,11 +392,10 @@ footer p {
   margin: 30px 10px;
 }
 
-.upperNav {
-  display: none;
-}
-
-.desktop-navbar {
+.upperNav,
+.desktop-main-title,
+.desktop-navbar,
+#whole-program {
   display: none;
 }
 
@@ -404,7 +403,9 @@ footer p {
 
 @media only screen and (min-width: 768px) {
 
-  .hamburger-menu {
+  .hamburger-menu,
+  .hero-main-title,
+  .register {
     display: none;
   }
 
@@ -484,6 +485,77 @@ footer p {
     padding: 25px 200px;
   }
 
+  .desktop-main-title {
+    display: block;
+    color: #ec5242;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 600;
+    margin-top: 8px;
+    line-height: 1.2em;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .hero-sub-title {
+    text-align: center;
+  }
+
+  .hero-paragraph {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  #get-in-touch {
+    width: 60%;
+    margin: 30px auto 0px auto;
+  }
+
+  .our-email {
+    margin-top: 5px;
+  }
+
+  .hero-date,
+  .hero-venue {
+    text-align: center;
+  }
+
+  header {
+    background-image: url(./images/micronautsMeetup.jpg);
+  }
+
+#whole-program {
+  display: block;
+  text-align: center;
+  color: #d3d3d3;
+  font-size: 1.1em;
+  padding-top: 25px;
+  text-decoration: underline;
+}
+
+.activities-lineup {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin: 0 1px;
+}
+
+.activity-brief {
+  text-align: center;
+  margin: 0;
+}
+
+.activity-title {
+  margin: 0;
+}
 
 }
 
