@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lato:wght@300;400;700&family=Poppins:wght@300;700&family=Readex+Pro:wght@200;500&display=swap');
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lato:wght@300;400;700&family=Poppins:wght@300;700&family=Readex+Pro:wght@200;500&display=swap");
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
 /* font-family: 'COCOGOOSE', sans-serif; */
 /* font-family: 'Lato', sans-serif;*/
 
 body {
   background-color: #d3d3d3;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -22,7 +22,6 @@ header {
 
 .hero {
   padding: 20px 0;
-
 }
 
 .hamburger-menu {
@@ -39,7 +38,7 @@ header {
 
 .hero-main-title {
   color: #ec5242;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "COCOGOOSE", sans-serif;
   font-weight: 600;
   margin-top: 8px;
   line-height: 1.2em;
@@ -68,7 +67,7 @@ header {
   margin-top: 2em;
   margin-left: 15px;
   margin-bottom: 0;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "COCOGOOSE", sans-serif;
   color: #4f5052;
   font-size: 1.5em;
 }
@@ -231,7 +230,7 @@ header {
   font-size: 1em;
   margin: 0;
   font-weight: 600;
-  color: #272a31
+  color: #272a31;
 }
 
 #more-speakers-arrow,
@@ -299,7 +298,7 @@ footer p {
   text-align: center;
   font-size: 1.1em;
   font-weight: 900;
-} 
+}
 
 .more-info {
   background-color: white;
@@ -334,7 +333,7 @@ footer p {
   font-size: 1.3em;
 }
 
-#previous-editions-underline { 
+#previous-editions-underline {
   border-top: 2px solid #ec5242;
   width: 50px;
   margin: 0 auto;
@@ -371,7 +370,7 @@ footer p {
 
 .first-edition-brief h4,
 .second-edition-brief h4 {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "COCOGOOSE", sans-serif;
   text-shadow: 2px 2px #272a31;
   margin: 0 10px;
   font-weight: 500;
@@ -402,7 +401,6 @@ footer p {
 /* /////////////// DESKTOP VERSION /////////////// */
 
 @media only screen and (min-width: 768px) {
-
   .hamburger-menu,
   .hero-main-title,
   .register {
@@ -488,7 +486,7 @@ footer p {
   .desktop-main-title {
     display: block;
     color: #ec5242;
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: "COCOGOOSE", sans-serif;
     font-weight: 600;
     margin-top: 8px;
     line-height: 1.2em;
@@ -523,39 +521,59 @@ footer p {
     background-image: url(./images/micronautsMeetup.jpg);
   }
 
-#whole-program {
-  display: block;
-  text-align: center;
-  color: #d3d3d3;
-  font-size: 1.1em;
-  padding-top: 25px;
-  text-decoration: underline;
-}
+  #whole-program {
+    display: block;
+    text-align: center;
+    color: #d3d3d3;
+    font-size: 1.1em;
+    padding-top: 25px;
+    text-decoration: underline;
+  }
 
-.activities-lineup {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: center;
-  gap: 1px;
-}
+  .activities-lineup {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+  }
 
-.activity-list {
-  display: flex;
-  flex-direction: column;
-  width: 15%;
-  margin: 0 1px;
-}
+  .activity-list {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 0 1px;
+  }
 
-.activity-brief {
-  text-align: center;
-  margin: 0;
-}
+  .activity-brief {
+    text-align: center;
+    margin: 0;
+  }
 
-.activity-title {
-  margin: 0;
-}
+  .activity-title {
+    margin: 0;
+  }
 
-}
+  .speakers-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  .speaker-card {
+    width: 45%;
+  }
+
+  .speaker-name {
+    font-size: 1.2em;
+  }
+
+  .speaker-portfolio,
+  .speaker-brief {
+    font-size: 0.8em;
+  }
+}
