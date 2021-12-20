@@ -402,7 +402,7 @@ footer p {
 /* //////////////// MOBILE MENU /////////////// */
 
 .mobile-menu {
-  display: block;
+  display: none;
   background-color: #272a31;
   position: fixed;
   z-index: 999;
@@ -458,7 +458,8 @@ footer p {
 @media only screen and (min-width: 768px) {
   .hamburger-menu,
   .hero-main-title,
-  .register {
+  .register,
+  .mobile-menu {
     display: none;
   }
 
