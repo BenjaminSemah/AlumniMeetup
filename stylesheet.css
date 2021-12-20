@@ -256,7 +256,8 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: 20px 30px;
+  background-color: white;
 }
 
 .footer-logo {
@@ -273,4 +274,25 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* /////////////// ABOUT PAGE /////////////// */
+
+.about-hero-paragraph {
+  text-align: center;
+  padding: 20px 10px;
+  line-height: 25px;
+}
+
+#get-in-touch {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.our-email {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 900;
+
 }
