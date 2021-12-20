@@ -92,7 +92,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 25px;
+  padding-top: 15px;
   margin-bottom: 30px;
 }
 
@@ -100,6 +100,7 @@ header {
 .sponsors-title {
   color: white;
   font-size: 1.3em;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 600;
 }
@@ -575,5 +576,36 @@ footer p {
   .speaker-portfolio,
   .speaker-brief {
     font-size: 0.8em;
+  }
+
+  .program-brief {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .more-info p {
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  .previous-meetups {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #ghmm-photo {
+    width: auto;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .sponsors-logos img {
+    height: 35px;
   }
 }
