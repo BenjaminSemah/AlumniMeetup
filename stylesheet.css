@@ -48,6 +48,12 @@ header {
   font-weight: 400;
 }
 
+footer p {
+  margin: 1px 0;
+  color: #272a31;
+  font-size: 0.8em;
+}
+
 .hero-paragraph p {
   line-height: 1.5em;
   text-align: left;
@@ -116,13 +122,13 @@ header {
 
 .activity-list {
   list-style: none;
-  padding-left: 0;
   display: flex;
   align-items: center;
   gap: 15px;
   background: #4b4949;
   margin: 10px;
   padding: 10px;
+  padding-left: 0;
 }
 
 .activity-list img {
@@ -260,12 +266,6 @@ footer {
 
 .footer-logo {
   height: 40px;
-}
-
-footer p {
-  margin: 1px 0;
-  color: #272a31;
-  font-size: 0.8em;
 }
 
 .footer-text {
@@ -439,7 +439,7 @@ footer p {
 }
 
 #mm-sign-up {
-  background-color:  #ec5242;
+  background-color: #ec5242;
   padding: 4px 10px;
   color: white;
 }
@@ -450,6 +450,9 @@ footer p {
   border: none;
 }
 
+#more-information-heading {
+  display: none;
+}
 
 /* /////////////// DESKTOP VERSION /////////////// */
 
@@ -560,7 +563,7 @@ footer p {
 
   #get-in-touch {
     width: 60%;
-    margin: 30px auto 0px auto;
+    margin: 30px auto 0 auto;
   }
 
   .our-email {

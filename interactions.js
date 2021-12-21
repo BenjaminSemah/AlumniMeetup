@@ -1,4 +1,4 @@
-/////////////// SPEAKERS SECTION - DYNAMIC HTML ///////////////
+/// //////////// SPEAKERS SECTION - DYNAMIC HTML ///////////////
 
 const speakersInfo = [
   {
@@ -55,23 +55,23 @@ function fetchSpeakers(s) {
         ${s.speakerBrief}
       </p>
     </div>
-  </li>`
+  </li>`;
   return speakerHTML;
 }
 
 const speakersList = document.querySelector('.speakers-list');
 
-function addSpeakers () {
+function addSpeakers() {
   let dynamicSpeakers = '';
   speakersInfo.forEach((s) => {
-    dynamicSpeakers = dynamicSpeakers + fetchSpeakers(s); 
+    dynamicSpeakers += fetchSpeakers(s);
   });
-  speakersList.innerHTML = dynamicSpeakers; 
+  speakersList.innerHTML = dynamicSpeakers;
 }
 
 speakersList.onresize = addSpeakers();
 
-/////////////// MOBILE MENU INTERACTIONS ///////////////
+/// //////////// MOBILE MENU INTERACTIONS ///////////////
 
 const hamburgerMenu = document.querySelector('#hmenu');
 const menuCloseBtn = document.querySelector('#mobile-menu-close');
@@ -82,11 +82,11 @@ const mobileMenuProgram = document.querySelector('.mobile-menu-program');
 const mobileMenuSponsors = document.querySelector('.mobile-menu-sponsors');
 
 function openMobileMenu() {
-  mobileMenu.style.display='block';
+  mobileMenu.style.display = 'block';
 }
 
 function closeMobileMenu() {
-  mobileMenu.style.display='none';
+  mobileMenu.style.display = 'none';
 }
 
 hamburgerMenu.addEventListener('click', openMobileMenu);
