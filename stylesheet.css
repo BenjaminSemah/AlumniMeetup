@@ -516,7 +516,7 @@ footer {
     text-align: left;
     margin-block-start: 0;
     margin-block-end: 0;
-    margin: 20px 0px 0px 89px;
+    margin: 20px 0 0 89px;
     padding: 0;
   }
 
@@ -731,10 +731,6 @@ footer {
     height: 400px;
     display: block;
     margin: 0 auto;
-  }
-
-  .index-sponsors {
-    display: block;
   }
 
   #sponsors-about {
