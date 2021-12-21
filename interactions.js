@@ -73,14 +73,13 @@ speakersList.onresize = addSpeakers();
 
 /////////////// MOBILE MENU INTERACTIONS ///////////////
 
-const hamburgerMenu = document.querySelector('#hmenu1');
+const hamburgerMenu = document.querySelector('#hmenu');
 const menuCloseBtn = document.querySelector('#mobile-menu-close');
 const mobileMenu = document.querySelector('.mobile-menu');
 const mobileMenuHome = document.querySelector('.mobile-menu-home');
 const mobileMenuAbout = document.querySelector('.mobile-menu-about');
 const mobileMenuProgram = document.querySelector('.mobile-menu-program');
 const mobileMenuSponsors = document.querySelector('.mobile-menu-sponsors');
-const hMenu = document.querySelector('#hmenu2');
 
 function openMobileMenu() {
   mobileMenu.style.display='block';
@@ -96,4 +95,3 @@ mobileMenuHome.addEventListener('click', closeMobileMenu);
 mobileMenuAbout.addEventListener('click', closeMobileMenu);
 mobileMenuProgram.addEventListener('click', closeMobileMenu);
 mobileMenuSponsors.addEventListener('click', closeMobileMenu);
-hMenu.addEventListener('click', openMobileMenu);

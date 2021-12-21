@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lato:wght@300;400;700&family=Poppins:wght@300;700&family=Readex+Pro:wght@200;500&display=swap");
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
-/* font-family: 'COCOGOOSE', sans-serif; */
-/* font-family: 'Lato', sans-serif;*/
 
 body {
   background-color: #d3d3d3;
@@ -480,6 +478,7 @@ footer p {
   .upper-nav-list {
     color: #d3d3d3;
     font-size: 0.8em;
+    cursor: pointer;
   }
 
   .desktop-nav-wrapper {
