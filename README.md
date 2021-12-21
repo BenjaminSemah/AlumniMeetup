@@ -1,14 +1,58 @@
-# AlumniMeetup
+# Micronauts Meetup 2022
 
-## Photo Credit
-https://www.pexels.com/photo/man-people-woman-car-6869044/
-Photo by Kindel Media from Pexels
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-https://www.pexels.com/photo/man-in-brown-suit-holding-clear-drinking-glass-5588488/
-Photo by Tony Schnagl from Pexels
+## First- Microverse-Capstone-Project
 
-<a href='https://www.freepik.com/photos/people'>People photo created by prostooleh - www.freepik.com</a>
+![App Screenshot](./images/micronauts-Meetup-AppScreenshot.png)
 
-<a href='https://www.freepik.com/photos/business'>Business photo created by drobotdean - www.freepik.com</a>
+## Built With
 
-<a href='https://www.freepik.com/photos/technology'>Technology photo created by pressfoto - www.freepik.com</a>
+- HTML
+- CSS
+- JavaScript
+
+## Live Demo
+
+[Live Demo Link](https://rustamxon7.github.io/Business-Marathon-website/)
+
+## Presentation
+
+[Presentation video](https://www.loom.com/share/d7473763cda64171918df056808f02bb)
+
+## Author
+
+👤 **Benjamin Semah**
+
+- GitHub: [Benjamin Semah](https://github.com/BenjaminSemah)
+- LinkedIn: [Benjamin Semah](https://www.linkedin.com/in/benjaminsemah/)
+- Twitter: [Benjamin Semah](https://twitter.com/BenjaminSemah)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/BenjaminSemah/AlumniMeetup/issues).
+
+## Acknowledgments
+
+- [Cindy Shin](https://www.behance.net/adagio07), UI/UX Designer.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
+### Photo Credits
+[Kindel Media from Pexels](https://www.pexels.com/photo/man-people-woman-car-6869044/)
+
+[Tony Schnagl from Pexels](https://www.pexels.com/photo/man-in-brown-suit-holding-clear-drinking-glass-5588488/)
+
+[Prostooleh from FreePik](https://www.freepik.com/photos/people)
+
+[Drobotdean from FreePik](https://www.freepik.com/photos/business)
+
+[Pressfoto from FreePik](https://www.freepik.com/photos/technology)
