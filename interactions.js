@@ -15,13 +15,13 @@ const speakersInfo = [
   },
   {
     img: './images/speakers/speaker3.png',
-    speakerName: 'Eddie O. Agyeman',
-    speakerPortfolio: 'Managing Director, MeTo Stores',
+    speakerName: 'Emma K. Dolphyne',
+    speakerPortfolio: 'Communications Director, C.D.S.T.',
     speakerBrief: 'Eddie is an award-winning tech executive and change leader.',
   },
   {
     img: './images/speakers/speaker4.png',
-    speakerName: 'Theophilus Annor',
+    speakerName: 'Eddie O. Agyeman',
     speakerPortfolio: 'CTO, Anbuzz Technologies',
     speakerBrief: 'Theophillus is the recipient of numerous awards for his outstanding leadership.',
   },
@@ -33,7 +33,7 @@ const speakersInfo = [
   },
   {
     img: './images/speakers/speaker6.png',
-    speakerName: 'Frank Piedu',
+    speakerName: 'Theophilus Annor',
     speakerPortfolio: 'Microverse Alumnus',
     speakerBrief: 'Frank has seven years of experience as a Freelance Front End Developer',
   },
@@ -73,7 +73,6 @@ if (speakersList !== null) {
   speakersList.onresize = addSpeakers();
 }
 
-
 /// //////////// MOBILE MENU INTERACTIONS ///////////////
 
 const hamburgerMenu = document.querySelector('#hmenu');
@@ -92,7 +91,8 @@ function closeMobileMenu() {
 
 hamburgerMenu.addEventListener('click', openMobileMenu);
 menuCloseBtn.addEventListener('click', closeMobileMenu);
+
 if (mobileMenuProgram !== null && mobileMenuSponsors !== null) {
-mobileMenuProgram.addEventListener('click', closeMobileMenu);
-mobileMenuSponsors.addEventListener('click', closeMobileMenu);
-};
+  mobileMenuProgram.addEventListener('click', closeMobileMenu);
+  mobileMenuSponsors.addEventListener('click', closeMobileMenu);
+}

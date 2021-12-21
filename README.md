@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## First- Microverse-Capstone-Project
+## First-Microverse-Capstone-Project
 
 ![App Screenshot](./images/micronauts-Meetup-AppScreenshot.png)
 
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rustamxon7.github.io/Business-Marathon-website/)
+[Live Demo Link](https://benjaminsemah.github.io/AlumniMeetup/)
 
 ## Presentation
 
@@ -36,7 +36,21 @@ Feel free to check the [issues page](https://github.com/BenjaminSemah/AlumniMeet
 
 ## Acknowledgments
 
-- [Cindy Shin](https://www.behance.net/adagio07), UI/UX Designer.
+### UI/UX Designer
+
+- [Cindy Shin](https://www.behance.net/adagio07)
+
+### Photo Credits
+
+- [Kindel Media from Pexels](https://www.pexels.com/photo/man-people-woman-car-6869044/)
+
+- [Tony Schnagl from Pexels](https://www.pexels.com/photo/man-in-brown-suit-holding-clear-drinking-glass-5588488/)
+
+- [Prostooleh from FreePik](https://www.freepik.com/photos/people)
+
+- [Drobotdean from FreePik](https://www.freepik.com/photos/business)
+
+- [Pressfoto from FreePik](https://www.freepik.com/photos/technology)
 
 ## Show your support
 
@@ -45,14 +59,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
-### Photo Credits
-[Kindel Media from Pexels](https://www.pexels.com/photo/man-people-woman-car-6869044/)
-
-[Tony Schnagl from Pexels](https://www.pexels.com/photo/man-in-brown-suit-holding-clear-drinking-glass-5588488/)
-
-[Prostooleh from FreePik](https://www.freepik.com/photos/people)
-
-[Drobotdean from FreePik](https://www.freepik.com/photos/business)
-
-[Pressfoto from FreePik](https://www.freepik.com/photos/technology)
