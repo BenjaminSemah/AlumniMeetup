@@ -1,0 +1,669 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lato:wght@300;400;700&family=Poppins:wght@300;700&family=Readex+Pro:wght@200;500&display=swap");
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+
+body {
+  background-color: #d3d3d3;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(./images/headerImage.jpg);
+  background-size: cover;
+  background-color: #d3d3d3;
+  background-blend-mode: screen;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #d3d3d3;
+}
+
+.hero {
+  padding: 20px 0;
+}
+
+.hamburger-menu {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 15px;
+  margin-top: 3em;
+}
+
+.hero-main-title {
+  color: #ec5242;
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 600;
+  margin-top: 8px;
+  line-height: 1.2em;
+}
+
+.hero-sub-title {
+  color: #ec5242;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+footer p {
+  margin: 1px 0;
+  color: #272a31;
+  font-size: 0.8em;
+}
+
+.hero-paragraph p {
+  line-height: 1.5em;
+  text-align: left;
+  padding: 0 15px;
+  color: #272a31;
+}
+
+.hero-paragraph {
+  background: #e3e3e3;
+  border: 1px solid white;
+  margin: 0 15px;
+}
+
+.hero-date {
+  margin-top: 2em;
+  margin-left: 15px;
+  margin-bottom: 0;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #4f5052;
+  font-size: 1.5em;
+}
+
+.hero-venue {
+  color: #505257;
+  margin-top: 0;
+  margin-left: 15px;
+  padding-bottom: 50px;
+  font-weight: 600;
+}
+
+.activities,
+.sponsors {
+  background-color: #272a31;
+  padding-bottom: 50px;
+}
+
+.activities-heading,
+.speakers-heading,
+.sponsors-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+
+#activities-title,
+.sponsors-title {
+  color: white;
+  font-size: 1.3em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+#activities-underline,
+#speakers-underline,
+#sponsors-underline {
+  border-top: 2px solid #ec5242;
+  width: 50px;
+}
+
+.activities-lineup {
+  padding-left: 0;
+}
+
+.activity-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #4b4949;
+  margin: 10px;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.activity-list img {
+  height: 50px;
+}
+
+.activity-title {
+  color: #ec5242;
+}
+
+.activity-brief {
+  color: white;
+}
+
+.register-button {
+  background-color: #ec5242;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 15px 20px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.speakers {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.speakers-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.speakers-list {
+  margin-top: 60px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.speaker-card {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.speaker-image {
+  height: 120px;
+  width: 120px;
+}
+
+.speaker-info-line {
+  border-top: 1px solid #9fa1a5;
+  width: 35px;
+}
+
+.speaker-name {
+  margin: 0;
+  font-weight: 900;
+  font-size: 1.3em;
+}
+
+.speaker-portfolio {
+  font-size: 0.9em;
+  margin: 7px 0;
+  color: #ec5242;
+  font-style: italic;
+}
+
+.speaker-brief {
+  margin: 10px 0;
+}
+
+.more-speakers-button,
+.less-speakers-button {
+  display: none;
+}
+
+.more-speakers,
+.less-speakers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #272a31;
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.more-text,
+.less-text {
+  font-size: 1em;
+  margin: 0;
+  font-weight: 600;
+  color: #272a31;
+}
+
+#more-speakers-arrow,
+#less-speakers-arrow {
+  height: 15px;
+  color: white;
+}
+
+.sponsors-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.sponsors-logos img {
+  height: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: white;
+}
+
+.footer-logo {
+  height: 40px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* /////////////// ABOUT PAGE /////////////// */
+
+.about-header {
+  padding: 10px 5px;
+}
+
+.about-hero-paragraph {
+  text-align: center;
+  padding: 20px 10px;
+  line-height: 25px;
+}
+
+#get-in-touch {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.our-email {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 900;
+}
+
+.more-info {
+  background-color: white;
+  padding: 50px 5px;
+}
+
+.more-info #ghmmLogo-about {
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+.more-info p {
+  text-align: justify;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+#ghmm-photo {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.previous-edition {
+  padding: 30px 0;
+  background-color: #f3ebeb;
+}
+
+.previous-edition-title {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#previous-editions-underline {
+  border-top: 2px solid #ec5242;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.previous-editions-photo {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.first-edition-brief,
+.second-edition-brief {
+  color: white;
+  margin: 20px auto;
+  background-size: cover;
+  background-color: #ec5242;
+  background-blend-mode: multiply;
+  width: 90%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.takoradiImage {
+  background-image: url(./images/firstEdition.jpg);
+}
+
+.kumasiImage {
+  background-image: url(./images/secondEdition.jpg);
+}
+
+.first-edition-brief h4,
+.second-edition-brief h4 {
+  font-family: "COCOGOOSE", sans-serif;
+  text-shadow: 2px 2px #272a31;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.first-edition-brief p,
+.second-edition-brief p {
+  text-align: center;
+  text-shadow: 1px 1px #272a31;
+  margin: 0 auto;
+  font-size: 0.8em;
+  width: 80%;
+}
+
+#previous-editions-underline + p {
+  font-size: 1em;
+  text-align: center;
+  margin: 30px 10px;
+}
+
+.upperNav,
+.desktop-main-title,
+.desktop-navbar,
+#whole-program {
+  display: none;
+}
+
+/* //////////////// MOBILE MENU /////////////// */
+
+.mobile-menu {
+  display: none;
+  background-color: #272a31;
+  position: fixed;
+  z-index: 999;
+  height: 100vh;
+  width: 100%;
+}
+
+#mobile-menu-close {
+  color: #d3d3d3;
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 2em;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#mobile.menu-list {
+  margin: 0;
+}
+
+.mobile-list-items {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.mobile-list-items a {
+  text-decoration: none;
+  font-size: 1.8em;
+  color: #d3d3d3;
+}
+
+.mobile-list-items a:hover {
+  color: #ec5242;
+}
+
+#mm-sign-up {
+  background-color: #ec5242;
+  padding: 4px 10px;
+  color: white;
+}
+
+#mm-sign-up:hover {
+  color: #ec5242;
+  background-color: white;
+  border: none;
+}
+
+#more-information-heading {
+  display: none;
+}
+
+/* /////////////// DESKTOP VERSION /////////////// */
+
+@media only screen and (min-width: 768px) {
+  .hamburger-menu,
+  .hero-main-title,
+  .register,
+  .mobile-menu {
+    display: none;
+  }
+
+  .upperNav {
+    margin: 0;
+    padding: 5px 100px;
+    background-color: #48494b;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+  }
+
+  .upper-nav-list img {
+    height: 15px;
+  }
+
+  .upper-nav-list {
+    color: #d3d3d3;
+    font-size: 0.8em;
+    cursor: pointer;
+  }
+
+  .desktop-nav-wrapper {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .desktop-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .desktop-navbar img {
+    height: 40px;
+  }
+
+  .desktop-navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .desktop-nav-items {
+    font-weight: 600;
+    color: #272a31;
+  }
+
+  .desktop-nav-link {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .desktop-nav-link:hover {
+    color: #ec5242;
+  }
+
+  #nav-signup {
+    background-color: white;
+    border: 2px solid #ec5242;
+    font-weight: 550;
+    padding: 7px 11px;
+    color: #ec5242;
+  }
+
+  #nav-signup:hover {
+    background-color: #ec5242;
+    color: white;
+  }
+
+  footer {
+    padding: 25px 200px;
+  }
+
+  .desktop-main-title {
+    display: block;
+    color: #ec5242;
+    font-family: "COCOGOOSE", sans-serif;
+    font-weight: 600;
+    margin-top: 8px;
+    line-height: 1.2em;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .hero-sub-title {
+    text-align: center;
+  }
+
+  .hero-paragraph {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  #get-in-touch {
+    width: 60%;
+    margin: 30px auto 0 auto;
+  }
+
+  .our-email {
+    margin-top: 5px;
+  }
+
+  .hero-date,
+  .hero-venue {
+    text-align: center;
+  }
+
+  header {
+    background-image: url(./images/micronautsMeetup.jpg);
+  }
+
+  #whole-program {
+    display: block;
+    text-align: center;
+    color: #d3d3d3;
+    font-size: 1.1em;
+    padding-top: 25px;
+    text-decoration: underline;
+  }
+
+  .activities-lineup {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+  }
+
+  .activity-list {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 0 1px;
+  }
+
+  .activity-brief {
+    text-align: center;
+    margin: 0;
+  }
+
+  .activity-title {
+    margin: 0;
+  }
+
+  .speakers-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .speaker-card {
+    width: 45%;
+  }
+
+  .speaker-name {
+    font-size: 1.2em;
+  }
+
+  .speaker-portfolio,
+  .speaker-brief {
+    font-size: 0.8em;
+  }
+
+  .program-brief {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .more-info p {
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  .previous-meetups {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #ghmm-photo {
+    width: auto;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .sponsors-logos img {
+    height: 35px;
+  }
+}

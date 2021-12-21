@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Ghana Micronauts Meetup</title>
+  </head>
+  <body>
+    <!-- MOBILE MENU START -->
+    <div class="mobile-menu">
+      <button type="button" id="mobile-menu-close" class="mobile-menu-close">X</button>
+      <ul id="mobile-menu-list" class="mobile-menu-list">
+        <li class="mobile-list-items mobile-menu-home">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="mobile-list-items mobile-menu-about">
+          <a href="./about.html">About</a>
+        </li>
+        <li class="mobile-list-items mobile-menu-program">
+          <a href="#activities-link">Program</a>
+        </li>
+        <li class="mobile-list-items mobile-menu-sponsors">
+          <a href="#sponsors-link">Sponsors</a>
+        </li>
+        <li class="mobile-list-items">
+          <a id="mm-sign-up" href="">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+    <!-- MOBILE MENU END -->
+
+    <!-- DESKTOP NAVIGATION START -->
+    <ul class="upperNav">
+      <li class="upper-nav-list">
+        <img src="./images/facebook-logo.png" alt="Twitter Logo" />
+      </li>
+      <li class="upper-nav-list">
+        <img src="./images/twitter-logo.png" alt="Twitter Logo" />
+      </li>
+      <li class="upper-nav-list">English</li>
+      <li class="upper-nav-list">My Page</li>
+      <li class="upper-nav-list">Logout</li>
+    </ul>
+    <div class="desktop-nav-wrapper">
+      <nav class="desktop-navbar">
+        <a href="./index.html">
+          <img class="nav-logo" src="./images/ghmm-logo.png" alt="GHMM Logo" />
+        </a>
+        <ul>
+          <li class="desktop-nav-items">
+            <a class="desktop-nav-link" href="./about.html">About</a>
+          </li>
+          <li class="desktop-nav-items">
+            <a class="desktop-nav-link" href="#activities-link">Program</a>
+          </li>
+          <li class="desktop-nav-items">
+            <a class="desktop-nav-link" href="#sponsors-link">Sponsors</a>
+          </li>
+          <li class="desktop-nav-items">
+              <button type="button" id="nav-signup">Sign Up</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- DESKTOP NAVIGATION END -->
+
+    <header>
+      <nav class="navigation">
+        <a href="#"
+          ><img
+            class="hamburger-menu"
+            id="hmenu"
+            src="./images/hamburger-menu.svg"
+            alt="hamburger menu icon"
+          />
+        </a>
+      </nav>
+      <div class="hero">
+        <div class="hero-title">
+          <h1 class="hero-main-title">GHANA MICRONAUTS MEETUP 2022</h1>
+          <h1 class="desktop-main-title">GHANA MICRONAUTS<br />MEETUP 2022</h1>
+          <h2 class="hero-sub-title">"Hello! Micronauts"</h2>
+        </div>
+        <div class="hero-paragraph">
+          <p>
+            A day of interaction with some of the world's most promising
+            software devs. Come learn from developers, have fun and network. You
+            wouldn't want to miss this.
+          </p>
+        </div>
+        <h3 class="hero-date">2022.10.29(SAT)</h3>
+        <p class="hero-venue">@International DEV. Center - Accra, Ghana</p>
+      </div>
+    </header>
+
+    <section class="activities" id="activities-link">
+      <div class="activities-heading">
+        <h3 id="activities-title">Activities Include</h3>
+        <div id="activities-underline"></div>
+      </div>
+      <ul class="activities-lineup">
+        <li class="activity-list lecture">
+          <img
+            class="activity-image"
+            src="./images/activities/lecture.png"
+            alt="lectures icon"
+          />
+          <h4 class="activity-title">Lecture</h4>
+          <p class="activity-brief">
+            Listen to inspiring talks by renowned Software developers.
+          </p>
+        </li>
+        <li class="activity-list interview">
+          <img
+            class="activity-image"
+            src="./images/activities/interview.png"
+            alt="lectures icon"
+          />
+          <h4 class="activity-title">Interviews</h4>
+          <p class="activity-brief">
+            Mock interviews with recruiters from reputable organizations.
+          </p>
+        </li>
+        <li class="activity-list workshops">
+          <img
+            class="activity-image"
+            src="./images/activities/workshops.png"
+            alt="lectures icon"
+          />
+          <h4 class="activity-title">Workshops</h4>
+          <p class="activity-brief">
+            Workshops on various topics such as how to craft your resume.
+          </p>
+        </li>
+        <li class="activity-list networking">
+          <img
+            class="activity-image"
+            src="./images/activities/networking.png"
+            alt="lectures icon"
+          />
+          <h4 class="activity-title">Networking</h4>
+          <p class="activity-brief">
+            Network with other Micronauts from around the world.
+          </p>
+        </li>
+        <li class="activity-list tour">
+          <img
+            class="activity-image"
+            src="./images/activities/tour.png"
+            alt="lectures icon"
+          />
+          <h4 class="activity-title">Tour</h4>
+          <p class="activity-brief">
+            Explore the beautiful city of Accra, Ghana's capital.
+          </p>
+        </li>
+      </ul>
+      <div class="register">
+        <button type="button" class="register-button">Register Now</button>
+      </div>
+      <a href="" id="whole-program">SEE THE WHOLE PROGRAM</a>
+    </section>
+
+    <section class="speakers">
+      <div class="speakers-heading">
+        <h3 class="speakers-title">Featured Speakers</h3>
+        <div id="speakers-underline"></div>
+      </div>
+      <ul class="speakers-list">
+        <!-- Speaker Cards Generated Dynamically with JavaScript -->
+      </ul>
+      <div class="more-speakers-button">
+        <button type="button" class="more-speakers">
+          MORE
+          <img
+            id="more-speakers-arrow"
+            class="up-and-down-arrows"
+            src="./images/down-arrow.svg"
+            alt="down arrow"
+          />
+        </button>
+      </div>
+      <div class="less-speakers-button">
+        <button type="button" class="less-speakers">
+          LESS
+          <img
+            id="less-speakers-arrow"
+            class="up-and-down-arrows"
+            src="./images/up-arrow.svg"
+            alt="up arrow"
+          />
+        </button>
+      </div>
+    </section>
+
+    <section class="sponsors" id="sponsors-link">
+      <div class="sponsors-heading">
+        <h5 class="sponsors-title">Sponsors / Partners</h5>
+        <div id="sponsors-underline"></div>
+      </div>
+      <div class="sponsors-logos">
+        <img src="./images/partners/bvmstudio-logo.png" alt="BVM Studio Logo" />
+        <img src="./images/partners/google-logo.png" alt="Google Logo" />
+        <img src="./images/partners/nita-logo.png" alt="Nita Logo" />
+        <img
+          src="./images/partners/microverse-logo.png"
+          alt="Microverse Logo"
+        />
+        <img src="./images/partners/github-logo.png" alt="GitHub Logo" />
+      </div>
+    </section>
+
+    <footer>
+      <img src="./images/ghmm-logo.png" alt="" class="footer-logo" />
+      <div class="footer-text">
+        <p>Built By Benjamin Semah</p>
+        <p>(2021) All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./interactions.js"></script>
+  </body>
+</html>
