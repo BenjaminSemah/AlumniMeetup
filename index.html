@@ -10,7 +10,9 @@
   <body>
     <!-- MOBILE MENU START -->
     <div class="mobile-menu">
-      <button type="button" id="mobile-menu-close" class="mobile-menu-close">X</button>
+      <button type="button" id="mobile-menu-close" class="mobile-menu-close">
+        X
+      </button>
       <ul id="mobile-menu-list" class="mobile-menu-list">
         <li class="mobile-list-items mobile-menu-home">
           <a href="./index.html">Home</a>
@@ -59,7 +61,7 @@
             <a class="desktop-nav-link" href="#sponsors-link">Sponsors</a>
           </li>
           <li class="desktop-nav-items">
-              <button type="button" id="nav-signup">Sign Up</button>
+            <button type="button" id="nav-signup">Sign Up</button>
           </li>
         </ul>
       </nav>
@@ -79,19 +81,25 @@
       </nav>
       <div class="hero">
         <div class="hero-title">
-          <h1 class="hero-main-title">GHANA MICRONAUTS MEETUP 2022</h1>
-          <h1 class="desktop-main-title">GHANA MICRONAUTS<br />MEETUP 2022</h1>
-          <h2 class="hero-sub-title">"Hello! Micronauts"</h2>
+          <h1 class="hero-main-title index-desktop-title">
+            GHANA MICRONAUTS MEETUP 2022
+          </h1>
+          <!-- <h1 class="desktop-main-title">GHANA MICRONAUTS<br />MEETUP 2022</h1> -->
+          <h2 class="hero-sub-title index-sub-title">"Hello! Micronauts"</h2>
         </div>
-        <div class="hero-paragraph">
+        <div class="hero-paragraph" id="index-hero-paragraph">
           <p>
             A day of interaction with some of the world's most promising
             software devs. Come learn from developers, have fun and network. You
             wouldn't want to miss this.
           </p>
         </div>
-        <h3 class="hero-date">2022.10.29(SAT)</h3>
-        <p class="hero-venue">@International DEV. Center - Accra, Ghana</p>
+        <div class="hero-date-venue">
+          <h3 class="hero-date index-date">2022.10.29(SAT)</h3>
+          <p class="hero-venue index-venue">
+            @International DEV. Center - Accra, Ghana
+          </p>
+        </div>
       </div>
     </header>
 
@@ -195,7 +203,7 @@
       </div>
     </section>
 
-    <section class="sponsors" id="sponsors-link">
+    <section class="sponsors index-sponsors" id="sponsors-link">
       <div class="sponsors-heading">
         <h5 class="sponsors-title">Sponsors / Partners</h5>
         <div id="sponsors-underline"></div>
@@ -212,7 +220,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="index-footer">
       <img src="./images/ghmm-logo.png" alt="" class="footer-logo" />
       <div class="footer-text">
         <p>Built By Benjamin Semah</p>
