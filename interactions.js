@@ -17,13 +17,13 @@ const speakersInfo = [
     img: './images/speakers/speaker3.png',
     speakerName: 'Emma K. Dolphyne',
     speakerPortfolio: 'Communications Director, C.D.S.T.',
-    speakerBrief: 'Eddie is an award-winning tech executive and change leader.',
+    speakerBrief: 'Emma is a communications specialist with more than a decade of experience.',
   },
   {
     img: './images/speakers/speaker4.png',
     speakerName: 'Eddie O. Agyeman',
-    speakerPortfolio: 'CTO, Anbuzz Technologies',
-    speakerBrief: 'Theophillus is the recipient of numerous awards for his outstanding leadership.',
+    speakerPortfolio: 'Tech Consultant',
+    speakerBrief: 'Eddie is the recipient of numerous awards for his outstanding leadership.',
   },
   {
     img: './images/speakers/speaker5.png',
@@ -33,9 +33,9 @@ const speakersInfo = [
   },
   {
     img: './images/speakers/speaker6.png',
-    speakerName: 'Theophilus Annor',
-    speakerPortfolio: 'Microverse Alumnus',
-    speakerBrief: 'Frank has seven years of experience as a Freelance Front End Developer',
+    speakerName: 'Theo Annor',
+    speakerPortfolio: 'CTO, Anbuzz Technologies',
+    speakerBrief: 'Theo has seven years of experience as a Freelance Front End Developer',
   },
 ];
 
