@@ -37,7 +37,7 @@ header {
 .hero-main-title {
   color: #ec5242;
   font-family: "COCOGOOSE", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 8px;
   line-height: 1.2em;
 }
@@ -84,15 +84,7 @@ footer p {
   font-weight: 600;
 }
 
-.activities {
-  background-color: #1d1f22;
-  background-image: url(./images/coolBackground.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
-  padding-bottom: 50px;
-}
-
+.activities,
 .sponsors {
   background-color: #272a31;
   padding-bottom: 50px;
@@ -134,7 +126,6 @@ footer p {
   align-items: center;
   gap: 15px;
   background: #4b4949;
-  opacity: 0.8;
   margin: 10px;
   padding: 10px;
   padding-left: 0;
@@ -293,9 +284,6 @@ footer {
   text-align: center;
   padding: 20px 10px;
   line-height: 25px;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #get-in-touch {
@@ -466,68 +454,14 @@ footer {
   display: none;
 }
 
-.about-desktop-title,
-.about-sub-title {
-  text-align: center;
-}
-
-.index-sponsors,
-#index-footer {
-  display: none;
-}
-
 /* /////////////// DESKTOP VERSION /////////////// */
 
 @media only screen and (min-width: 768px) {
   .hamburger-menu,
+  .hero-main-title,
   .register,
   .mobile-menu {
     display: none;
-  }
-
-  .index-sponsors {
-    display: block;
-  }
-
-  #index-footer {
-    display: flex;
-  }
-
-  .index-desktop-title {
-    font-weight: 700;
-    font-size: 3em;
-    text-align: left;
-    margin-right: 30%;
-    margin-left: 75px;
-  }
-
-  .index-sub-title {
-    text-align: left;
-    margin-right: auto;
-    margin-left: 75px;
-  }
-
-  #index-hero-paragraph {
-    margin-left: 89px;
-    margin-right: 40%;
-  }
-
-  .index-date {
-    text-align: left;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin: 20px 0 0 89px;
-    padding: 0;
-  }
-
-  .index-venue {
-    margin-left: 89px;
-  }
-
-  .hero-date-venue {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .upperNav {
@@ -603,24 +537,15 @@ footer {
     color: white;
   }
 
-  .about-footer-text {
-    color: white;
-  }
-
-  .footer-about {
+  footer {
     padding: 25px 200px;
-    background-color: #272a31;
-  }
-
-  #footer-logo-about {
-    background-color: white;
   }
 
   .desktop-main-title {
     display: block;
     color: #ec5242;
     font-family: "COCOGOOSE", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 8px;
     line-height: 1.2em;
     text-align: center;
@@ -629,6 +554,11 @@ footer {
 
   .hero-sub-title {
     text-align: center;
+  }
+
+  .hero-paragraph {
+    width: 60%;
+    margin: 0 auto;
   }
 
   #get-in-touch {
@@ -731,10 +661,6 @@ footer {
     height: 400px;
     display: block;
     margin: 0 auto;
-  }
-
-  #sponsors-about {
-    display: none;
   }
 
   .sponsors-logos img {
