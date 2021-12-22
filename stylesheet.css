@@ -601,7 +601,13 @@ footer {
     display: flex;
     flex-direction: column;
     width: 15%;
-    margin: 0 1px;
+    margin: 0 2px;
+    transition: all .2s ease-in-out;
+    border: 1px solid white;
+  }
+
+  .activity-list:hover {
+    transform: scale(0.9);
   }
 
   .activity-brief {
