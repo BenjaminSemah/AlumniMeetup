@@ -96,3 +96,102 @@ if (mobileMenuProgram !== null && mobileMenuSponsors !== null) {
   mobileMenuProgram.addEventListener('click', closeMobileMenu);
   mobileMenuSponsors.addEventListener('click', closeMobileMenu);
 }
+
+
+/// //////////// ACTIVITIES SECTION -DYNAMIC HTML ///////////////
+
+const activityData = [
+  {
+    activityImage: './images/activities/lecture.png',
+    activityImageAlt: 'lectures icon',
+    activityName: 'Lecture',
+    activityBrief: 'Listen to inspiring talks by renowned Software developers.'
+  },
+  {
+    activityImage: './images/activities/interview.png',
+    activityImageAlt: 'Interviews icon',
+    activityName: 'Interviews',
+    activityBrief: 'Mock interviews with recruiters from reputable organizations.'
+  },
+  {
+    activityImage: './images/activities/workshops.png',
+    activityImageAlt: 'Workshops icon',
+    activityName: 'Workshops',
+    activityBrief: 'Workshops on various topics such as how to craft your resume.'
+  },
+  {
+    activityImage: './images/activities/networking.png',
+    activityImageAlt: 'Networking icon',
+    activityName: 'Networking',
+    activityBrief: 'Network with other Micronauts from around the world.'
+  },
+  {
+    activityImage: './images/activities/tour.png',
+    activityImageAlt: 'Tour icon',
+    activityName: 'Tour',
+    activityBrief: 'Explore the beautiful city of Accra, Ghana\'s capital.'
+  },
+]
+
+let activityHTML = ``;
+
+activityData.forEach(function(activity) {
+  activityHTML = 
+    activityHTML + 
+    `        
+    <li class="activity-list lecture">
+      <img
+        class="activity-image"
+        src="${activity.activityImage}"
+        alt="${activity.activityImageAlt}"
+      />
+      <h4 class="activity-title">${activity.activityName}</h4>
+      <p class="activity-brief">
+        ${activity.activityBrief}
+      </p>
+    </li>
+  `
+});
+
+const activityLineup = document.querySelector('.activities-lineup');
+
+activityLineup.innerHTML = activityHTML;
+
+/////////////// FORM VALIDATION ///////////////
+
+const form = document.querySelector('.form');
+const userName = document.querySelector('name-form');
+const email = document.querySelector('email-form');
+
+const setErrorMessage = (element, message) => {
+  const inputControl = element.parentElement;
+  const errorDisplay = inputControl.querySelector('.error');
+
+  errorDisplay.innerText = message;
+  inputControl.classList.add('error');
+  inputControl.classList.remove('success');
+}
+
+const setSuccessMessage = (element) => {
+  const inputControl = element.parentElement;
+  const errorDisplay = inputControl.querySelector('.error');
+
+  errorDisplay.innerText = '';
+  inputControl.classList.add('success');
+  inputControl.classList.remove('error');
+};
+
+const validateInputs = () => {
+  const nameValue = userName.value.trim();
+  const emailVaule = email.value.trim();
+
+  if (nameValue === ''){
+      setErrorMessage(userName, 'Name is Required');
+  } else {
+    setSuccessMessage(userName);
+  }
+}
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+})
