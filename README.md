@@ -2,9 +2,9 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## First-Microverse-Capstone-Project
+> This website was created for an tech meetup program. The website was created to help publicise the program to students of Microverse residing in Ghana.
 
-![App Screenshot](./images/micronauts-Meetup-AppScreenshot.png)
+![App Screenshot](./images/meetupWebsite.png)
 
 ## Built With
 

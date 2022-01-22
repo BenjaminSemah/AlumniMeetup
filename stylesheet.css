@@ -454,6 +454,83 @@ footer {
   display: none;
 }
 
+/* /////////////// REGISTRATION FORM /////////////// */
+.form-container {
+  background-color: #272a31;
+  background-image: url(./images/formBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  padding: 50px 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.name-form,
+.email-form,
+.country-form,
+#message-form {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(27, 27, 27);
+  border: 1.5px solid white;
+  padding: 7px;
+  outline: none;
+  height: 30 px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  transition: height 1 s;
+  -webkit-transition: height 1 s;
+  text-align: center;
+  width: 95%;
+}
+
+.nameError,
+.emailError {
+  color: red;
+  font-family: "Lato", sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.input-control.success input {
+  border-color: rgb(23, 165, 123);
+}
+
+.input-control.error input {
+  border-color: red;
+}
+
+input[type=text],
+input[type=email] {
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.register-form {
+  background-color: #ec5242;
+  border: none;
+  color: white;
+  padding: 9px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+}
+
+::placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 1.1em;
+  opacity: 60%;
+}
+
+
 /* /////////////// DESKTOP VERSION /////////////// */
 
 @media only screen and (min-width: 768px) {
